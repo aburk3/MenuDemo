@@ -14,6 +14,8 @@
 		D968822227B13D28009F791B /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968822027B13D28009F791B /* VisualEffectBlur.swift */; };
 		D968822327B13D28009F791B /* AccountBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968822127B13D28009F791B /* AccountBackground.swift */; };
 		D968822527B147A1009F791B /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968822427B147A1009F791B /* TrackableScrollView.swift */; };
+		D968822727B14C17009F791B /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968822627B14C17009F791B /* MenuRow.swift */; };
+		D968822927B14D1C009F791B /* GradientIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968822827B14D1C009F791B /* GradientIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		D968822027B13D28009F791B /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		D968822127B13D28009F791B /* AccountBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountBackground.swift; sourceTree = "<group>"; };
 		D968822427B147A1009F791B /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
+		D968822627B14C17009F791B /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
+		D968822827B14D1C009F791B /* GradientIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				D968821527B13CB0009F791B /* Assets.xcassets */,
 				D968821727B13CB0009F791B /* Preview Content */,
 				D968822427B147A1009F791B /* TrackableScrollView.swift */,
+				D968822627B14C17009F791B /* MenuRow.swift */,
+				D968822827B14D1C009F791B /* GradientIcon.swift */,
 			);
 			path = SwiftUICombineAndData;
 			sourceTree = "<group>";
@@ -157,8 +163,10 @@
 				D968822227B13D28009F791B /* VisualEffectBlur.swift in Sources */,
 				D968822527B147A1009F791B /* TrackableScrollView.swift in Sources */,
 				D968821427B13CAF009F791B /* ContentView.swift in Sources */,
+				D968822927B14D1C009F791B /* GradientIcon.swift in Sources */,
 				D968821227B13CAF009F791B /* SwiftUICombineAndDataApp.swift in Sources */,
 				D968822327B13D28009F791B /* AccountBackground.swift in Sources */,
+				D968822727B14C17009F791B /* MenuRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
