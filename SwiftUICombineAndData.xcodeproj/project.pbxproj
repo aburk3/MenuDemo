@@ -16,6 +16,8 @@
 		D968822527B147A1009F791B /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968822427B147A1009F791B /* TrackableScrollView.swift */; };
 		D968822727B14C17009F791B /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968822627B14C17009F791B /* MenuRow.swift */; };
 		D968822927B14D1C009F791B /* GradientIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968822827B14D1C009F791B /* GradientIcon.swift */; };
+		D968822C27B3E894009F791B /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968822B27B3E894009F791B /* FAQView.swift */; };
+		D968822E27B3E8A0009F791B /* PackagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968822D27B3E8A0009F791B /* PackagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		D968822627B14C17009F791B /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 		D968822827B14D1C009F791B /* GradientIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientIcon.swift; sourceTree = "<group>"; };
 		D968822A27B29AE3009F791B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D968822B27B3E894009F791B /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
+		D968822D27B3E8A0009F791B /* PackagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				D968821F27B13D0F009F791B /* Graphics */,
 				D968821127B13CAF009F791B /* SwiftUICombineAndDataApp.swift */,
 				D968821327B13CAF009F791B /* ContentView.swift */,
+				D968822B27B3E894009F791B /* FAQView.swift */,
+				D968822D27B3E8A0009F791B /* PackagesView.swift */,
 				D968821527B13CB0009F791B /* Assets.xcassets */,
 				D968821727B13CB0009F791B /* Preview Content */,
 				D968822427B147A1009F791B /* TrackableScrollView.swift */,
@@ -165,6 +171,8 @@
 				D968822227B13D28009F791B /* VisualEffectBlur.swift in Sources */,
 				D968822527B147A1009F791B /* TrackableScrollView.swift in Sources */,
 				D968821427B13CAF009F791B /* ContentView.swift in Sources */,
+				D968822C27B3E894009F791B /* FAQView.swift in Sources */,
+				D968822E27B3E8A0009F791B /* PackagesView.swift in Sources */,
 				D968822927B14D1C009F791B /* GradientIcon.swift in Sources */,
 				D968821227B13CAF009F791B /* SwiftUICombineAndDataApp.swift in Sources */,
 				D968822327B13D28009F791B /* AccountBackground.swift in Sources */,
