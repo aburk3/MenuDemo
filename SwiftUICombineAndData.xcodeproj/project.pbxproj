@@ -29,6 +29,7 @@
 		D968822427B147A1009F791B /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
 		D968822627B14C17009F791B /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 		D968822827B14D1C009F791B /* GradientIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientIcon.swift; sourceTree = "<group>"; };
+		D968822A27B29AE3009F791B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		D968821027B13CAF009F791B /* SwiftUICombineAndData */ = {
 			isa = PBXGroup;
 			children = (
+				D968822A27B29AE3009F791B /* Info.plist */,
 				D968821F27B13D0F009F791B /* Graphics */,
 				D968821127B13CAF009F791B /* SwiftUICombineAndDataApp.swift */,
 				D968821327B13CAF009F791B /* ContentView.swift */,
@@ -300,6 +302,7 @@
 				DEVELOPMENT_TEAM = YMWX5SW9T6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUICombineAndData/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -329,6 +332,7 @@
 				DEVELOPMENT_TEAM = YMWX5SW9T6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUICombineAndData/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
