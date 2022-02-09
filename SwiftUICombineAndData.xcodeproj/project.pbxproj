@@ -66,17 +66,15 @@
 		D968821027B13CAF009F791B /* SwiftUICombineAndData */ = {
 			isa = PBXGroup;
 			children = (
+				D968823327B3E8FD009F791B /* Components */,
+				D968823227B3E8EE009F791B /* Utils */,
+				D968822F27B3E8C6009F791B /* Views */,
 				D968822A27B29AE3009F791B /* Info.plist */,
 				D968821F27B13D0F009F791B /* Graphics */,
 				D968821127B13CAF009F791B /* SwiftUICombineAndDataApp.swift */,
 				D968821327B13CAF009F791B /* ContentView.swift */,
-				D968822B27B3E894009F791B /* FAQView.swift */,
-				D968822D27B3E8A0009F791B /* PackagesView.swift */,
 				D968821527B13CB0009F791B /* Assets.xcassets */,
 				D968821727B13CB0009F791B /* Preview Content */,
-				D968822427B147A1009F791B /* TrackableScrollView.swift */,
-				D968822627B14C17009F791B /* MenuRow.swift */,
-				D968822827B14D1C009F791B /* GradientIcon.swift */,
 			);
 			path = SwiftUICombineAndData;
 			sourceTree = "<group>";
@@ -96,6 +94,48 @@
 				D968822027B13D28009F791B /* VisualEffectBlur.swift */,
 			);
 			path = Graphics;
+			sourceTree = "<group>";
+		};
+		D968822F27B3E8C6009F791B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D968822B27B3E894009F791B /* FAQView.swift */,
+				D968822D27B3E8A0009F791B /* PackagesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D968823027B3E8D0009F791B /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				D968822627B14C17009F791B /* MenuRow.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		D968823127B3E8E4009F791B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D968822827B14D1C009F791B /* GradientIcon.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D968823227B3E8EE009F791B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D968822427B147A1009F791B /* TrackableScrollView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D968823327B3E8FD009F791B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D968823127B3E8E4009F791B /* Other */,
+				D968823027B3E8D0009F791B /* Rows */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
