@@ -37,11 +37,21 @@ struct ContentView: View {
         VStack {
             // More content
             VStack {
-                MenuRow()
+                NavigationLink(destination: FAQView()) {
+                    MenuRow()
+                }
+                
                 divider
-                MenuRow(title: "SwiftUI Packages", leftIcon: "square.stack.3d.up.fill")
+                
+                NavigationLink(destination: PackagesView()) {
+                    MenuRow(title: "SwiftUI Packages", leftIcon: "square.stack.3d.up.fill")
+                }
+                
                 divider
-                MenuRow(title: "YouTube Channel", leftIcon: "play.rectangle.fill", rightIcon: "link")
+
+                Link(destination: URL(string: "https://austinburke.dev")!, label: {
+                    MenuRow(title: "YouTube", leftIcon: "play.rectangle.fill", rightIcon: "link")
+                })
             }
             .padding(16)
             .background(Color("Background 1"))
